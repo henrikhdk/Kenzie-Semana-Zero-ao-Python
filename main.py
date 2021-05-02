@@ -1,41 +1,48 @@
-# x = 5
-# y = 2
-#
-# print(x)
-# print(y)
-#
-# print('hello world')
-#
-# z = x + y
-# print(z)
-#
-# cor_verde = 'verde'
-# cor_vermelho = 'vermelho'
-#
-# ola = 'youtube '
-# boa_noite = 'boa noite'
-# print(ola + boa_noite)
+# def estado_do_gui(qualidade):
+#     print('Gui lê um comentário')
+#     if qualidade == 'piada boa':
+#         return 'rindo'
+#     else:
+#         return 'serio'
 #
 #
-# A = False
-# B = True
+# meu_estado = estado_do_gui('piada boa')
 #
-# if A:
-#     print("A é maior que B")
-# elif B:
-#     print("B é maior que A")
-# else:
-#     print("B é igual a que A")
+# print(meu_estado)
 
-mes = input("Qual mês é o seu aniversario?")
-dia = int(input("Qual o dia?"))
+# numeros = [1, 2, 3]
+#
+# futuros_devs = ['lucas', 'isabela', 'chris']
+#
+# print(futuros_devs[0])
+# print(futuros_devs[2])
+# print(futuros_devs[1])
+#
+# mais_devs = ['joel', 'priscila', 'rhuan']
+#
+# geral = futuros_devs + mais_devs
+#
+# print(geral)
+# print(geral[-3])
 
-if mes == 'jan':
-    tipo = "ground"
-elif mes == 'fev':
-    tipo = "fighting"
+# devs = ['davi', 'gabriel', 'juliana', 'ana']
+#
+# for dev in devs:
+#     print(dev + ' manda bem no python')
 
-if dia == 1:
-    tipo = tipo + " electric"
+frutas = ['pera', 'maca', 'laranja']
 
-print(tipo)
+def encontra_frutas(f):
+    for fruta in frutas:
+        if fruta == f:
+            print('Achei a fruta')
+            return
+        else:
+            print('Ainda estou procurando')
+
+    print('nao achei')
+
+encontra_frutas('pera')
+
+numeros = [1,2,3]
+maisdddd
